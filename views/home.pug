@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+
+
+block style
+    style
+      include ../static/style.css
+
+
+block content
+    section#introsection
+        div Welcome to Aditi Dance Academy
+        div.small Live Love Learn
+
+    section#missionsection
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg1.jpg")
+                div.card-content
+                    p Learn your passion, follow your heart and be the best version of yourself 
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg2.jpg")
+                div.card-content
+                    p The best place in town with the well experienced and qualified instructors 
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg3.png")
+                div.card-content
+                    p Let hardwrok and dedication chase your dreams.  
+
+    section#sponserssection
+        h2 Our Sponsers
+        div.sponsers
+            img(src="/static/img/apple.png", alt="apple-logo" Class="spimg")
+            img(src="/static/img/micro.png", alt="Microsoft-logo" Class="spimg")
+            img(src="/static/img/hp.png", alt="HP-logo" Class="spimg")
+            img(src="/static/img/skyp.png", alt="Skype-logo" Class="spimg")

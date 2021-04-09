@@ -1,0 +1,169 @@
+/* IMPORTED THINGS */
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/* RESET SECTION  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 12px;
+    font-size: 14px;
+    margin-right: 17px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+/* NAVBAR section */
+
+#navbar{
+    background-color: #f15b5b;
+    padding: 5px 4px;
+    font-family: 'Ranchers', cursive;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 29px;
+    color: white;
+    font-size: 1.1rem;
+}
+#navbar li a:hover{
+    background-color: azure;
+    color: rgba(19, 18, 18, 0.877);
+    border-radius: 20px;
+}
+
+
+/* SECTIONS */
+
+#introsection{
+    padding-bottom: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    /* background-color: aqua; */
+    background: url('/static/bg.jpg') center/cover no-repeat;
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+}
+
+
+#introsection div.small{
+    font-size: 23px;
+    font-family: 'Syne Mono', monospace;
+}
+
+#missionsection{
+    height: 326px;
+    /* background-color: #8f4c4ccc; */
+    margin: auto;
+    width: 72%;
+    display: block;
+
+}
+
+#missionsection h2{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 210px;
+    margin: 20px 24px;
+    display: inline-block;
+    /* background-color:#fae5ea; */
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 12px;
+
+}
+
+.card-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 12px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 10px;
+}
+.card-content p{
+    font-size: 14px;
+    
+}
+
+#sponserssection{
+    height: 300px;
+    background-color: #935c5ca1;
+}
+
+#sponserssection h2{
+    padding-top:10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    
+
+}
+.sponsers{    
+    height: 138px;
+    max-width: 895px;
+    margin: 30px auto;
+}
+.spimg{
+    /* filter: invert(20%); */
+    height: 80%;
+    margin: 20px;
+
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
